@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1703.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JokesApp", "JokesApp\JokesApp.csproj", "{D11F6EEC-7CE9-4E22-A295-56525EF18F05}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{7382881A-0B8D-49E0-B025-4572E04A3025}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{80637FEE-F368-48A2-92FA-762D87F330C9}"
+	ProjectSection(SolutionItems) = preProject
+		web.config = web.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D11F6EEC-7CE9-4E22-A295-56525EF18F05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D11F6EEC-7CE9-4E22-A295-56525EF18F05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D11F6EEC-7CE9-4E22-A295-56525EF18F05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D11F6EEC-7CE9-4E22-A295-56525EF18F05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7382881A-0B8D-49E0-B025-4572E04A3025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7382881A-0B8D-49E0-B025-4572E04A3025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7382881A-0B8D-49E0-B025-4572E04A3025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7382881A-0B8D-49E0-B025-4572E04A3025}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A29F7185-D0F2-4A51-BBC2-8539632D3D54}
+	EndGlobalSection
+EndGlobal

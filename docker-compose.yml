@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  jokesapp:
+    image: ${DOCKER_REGISTRY-}jokesapp
+    build:
+      context: .
+      dockerfile: JokesApp/Dockerfile
